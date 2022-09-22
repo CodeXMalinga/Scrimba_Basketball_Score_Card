@@ -1,0 +1,79 @@
+@import url('http://fonts.cdnfonts.com/css/cursed-timer-ulil');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Bungee Spice', cursive;
+}
+
+* {
+  margin : 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: #1B244A;
+  
+}
+
+.score-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  /* identical to box height, or 90% */
+  text-align: center;
+  color: #EEEEEE;
+}
+
+.score {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  /* or 141% */
+  text-align: center;
+}
+
+.score-btns {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  margin-top: 26px;
+}
+
+.btn {
+  width: 45px;
+  height: 45px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 155% */
+  text-align: center;
+  border: 2px solid #9AABD8;
+  border-radius: 5px;
+  color: #9AABD8;
+  background: transparent;
+  cursor: pointer;
+  text-justify: center;
+
+}
+
+.score-div {
+  background: #080001;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 21px;
+}
+
+.score-container{
+  width: 155px;
+}
